@@ -1,3 +1,5 @@
+<img src="/src/image.jpg" width=200px>
+
 # Win 98 CSS
 Bringing back your childhood memories in CSS.
 
