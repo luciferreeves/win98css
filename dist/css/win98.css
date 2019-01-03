@@ -1,0 +1,268 @@
+body {
+    padding: 50px;
+    margin: 0px;
+    font-family: "MS Sans Serif", "Segoe UI", sans-serif;
+}
+
+/* Alertbox */
+
+.alertbox {
+    width: 600px;
+    padding-left: 1px;
+    padding-top: 1px;
+    border-left: solid 1px #C0C0C0;
+    border-top: solid 1px #C0C0C0;
+    border-bottom: solid 3px #555555;
+    border-right: solid 3px #555555;
+}
+.alertbox-header {
+    background-color: #092080;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.alertbox-body {
+    background-color: #C0C0C0;
+    padding: 50px 20px;
+    font-size: 14px;
+}
+
+/* Buttons */
+
+.btn {
+    background-color: #C0C0C0;
+    padding: 5px 5px;
+    font-size: 14px;
+    border-left: solid 1px black;
+    border-top: solid 1px black;
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
+    color: black;
+    border-radius: 2px;
+}
+.btn-alertbox {
+    display: block;
+    margin: 20px auto 0px auto;
+}
+.btn-alertbox span {
+    border: 1px dotted black;
+    padding: 2px 25px;
+}
+.btn-alertbox:focus {
+    outline: none;
+    color: black;
+    background-color: #979797;
+}
+.btn-alertbox:active {
+    outline: none;
+    color: black;
+    background-color: #b4b4b4;
+}
+.btn span {
+    border: 1px dotted black;
+    padding: 2px 25px;
+}
+.btn-primary:active {
+    background-color: #b4b4b4;
+}
+.btn-secondary {
+    background-color: #167AF6;
+    color: white;
+}
+.btn-secondary:active {
+    background-color: #0F69D9;
+    color: white;
+}
+.btn-danger {
+    background-color: #DC3545;
+    color: white;
+}
+.btn-danger:active {
+    background-color: #b82c3a;
+    color: white;
+}
+.btn-success {
+    background-color: #4CA846;
+    color: white;
+}
+.btn-success:active {
+    background-color: #327a2d;
+    color: white;
+}
+.btn-warning {
+    background-color: #F8C246;
+    color: black;
+}
+.btn-warning:active {
+    background-color: rgb(190, 150, 55);
+    color: white;
+}
+.btn-info {
+    background-color: #42A3B8;
+    color: white;
+}
+.btn-info:active {
+    background-color: rgb(54, 138, 156);
+    color: white;
+}
+.btn-outline {
+    background-color: transparent;
+}
+.btn-outline:hover {
+    background-color: #C0C0C0;
+}
+
+/* Card */
+
+.card {
+    width: 300px;
+    padding-left: 1px;
+    padding-top: 1px;
+    border-left: solid 1px #C0C0C0;
+    border-top: solid 1px #C0C0C0;
+    border-bottom: solid 3px #555555;
+    border-right: solid 3px #555555;
+}
+.card-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: -4px;
+}
+.card-body {
+    /* margin-top: -26px; */
+    padding: 20px 20px 20px 20px;
+    background-color: #c0c0c0;
+}
+.card-title {
+    font-size: 22px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.card-text {
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.card-subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.card-header {
+    font-size: 18px;
+    color: white;
+    background-color: #092080;
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+
+/* List group */
+
+.list-group {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #C0C0C0;
+}
+.list-group-item {
+    padding: 10px 5px;
+    border-bottom: solid 1px black;
+}
+
+
+/* Blockquote */
+
+.blockquote-footer {
+    color: #464646
+}
+
+
+/* Forms */
+
+.form-control {
+    font-size: 14px;
+    padding: 5px 10px;
+    width: 600px;
+    outline: none;
+    border-left: solid 1px #C0C0C0;
+    border-top: solid 1px #C0C0C0;
+    border-bottom: solid 3px #555555;
+    border-right: solid 3px #555555;
+}
+
+
+.form-select {
+    position: relative;
+    font-family: Arial;
+    width: 620px;
+    padding-left: 1px;
+    padding-top: 1px;
+    border-left: solid 1px #C0C0C0;
+    border-top: solid 1px #C0C0C0;
+    border-bottom: solid 3px #555555;
+    border-right: solid 3px #555555;
+  }
+  
+  .form-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+  .select-selected {
+    background-color: #082081;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px dotted transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div {
+    color: #000000;
+    padding: 8px 16px;
+    border: 1px dotted transparent;
+    border-color: white;
+    cursor: pointer;
+  }
+  
+  .select-selected {
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    color: black;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: #082081;
+    color: white;
+  }

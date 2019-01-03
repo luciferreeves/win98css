@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Win 98 CSS</title>
+    <link rel="stylesheet" href="../dist/css/win98.min.css">
+    <link rel="stylesheet" href="../src/webstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+</head>
+<body>
+    <div class="padded">
+        <a href="../" class="wba">&lt;&lt; Go Back Home</a>
+        <h1 class="wbh1">Documentation</h1>
+        <p class="wbp">Please note that Win 98 CSS is still in development and only a few features are available. If you're still ready to use it,this guide explains how do you use it. It must be noted that the developer is not responsible for any unexpected behaviours due to other CSS frameworks. It is best advised to use Win 98 CSS Standalone. If you want to file a bug or add a feature <a href="https://github.com/luciferreeves/win98css/issues/new">open an issue.</a></p>
+    </div>
+    <div class="documentation">
+        <div class="doc-sidebar">
+            <ol>
+                <li><a href="#hts">How to start</a></li>
+                <li><a href="#st">Starter template</a></li>
+                <li><a href="#alerts">Alerts</a></li>
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#card">Card</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#lg">List Groups</a></li>
+                <li><a href="#quote">Quotes</a></li>
+            </ol>
+        </div>
+        <div class="doc-content">
+            <h1 id="hts" class="dch1">How to start?</h1>
+            <p class="dcp">To get started download the Win 98 CSS. You can download Win 98 CSS <a href="../dist/css/win98.css">uncompressed</a> or <a href="../dist/css/win98.min.css">compressed</a>. Include that in your HTML file. Next, Download the Win 98 JS, <a href="../dist/js/win98.js">uncompressed</a> or <a href="../dist/js/win98.min.js">compressed</a> and also include it in you HTML file and you're ready to go. </p>
+            <h1 id="st" class="dch1">Starter template</h1>
+            <p class="dcp-code">
+
+
+                    &lt;!doctype html><br>
+                    &lt;html lang="en"><br>
+                    &emsp;&lt;head><br>
+                    &emsp;&emsp;&lt;!-- Required meta tags --><br>
+                    &emsp;&emsp;&lt;meta charset="utf-8"><br>
+                    &emsp;&emsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><br>
+                    
+                    &emsp;&emsp;&lt;!-- Win 98 CSS --><br>
+                    &emsp;&emsp;&lt;link rel="stylesheet" href="win98.min.css"><br>
+                    
+                    &emsp;&emsp;&lt;title>Hello, world!&lt;/title><br>
+                    &emsp;&lt;/head><br>
+                    &emsp;&lt;body><br>
+                    &emsp;&emsp;&lt;h1>Hello, world!</h1><br>
+                    
+                    &emsp;&emsp;&lt;!-- Win 98 JavaScript --><br>
+                    &emsp;&emsp;&lt;script src="win98.min.js"></script><br>
+                    &emsp;&lt;/body><br>
+                    &lt;/html><br>
+
+            </p>
+            <h1 id="alerts" class="dch1">Alerts</h1>
+            <p class="dcp">Alerts are available for any length of text, as well as an optional dismiss button. These resemble similar to the 98 Window Alerts</p>
+            <div class="alertbox">
+                    <div class="alertbox-header">
+                        This is an alert
+                    </div>
+                    <div class="alertbox-body">
+                        This is the alert body with a SUPER BAD LOOKING ERROR CODE. Please fix this error before pursuing to the webpage.
+                        <button class="btn btn-alertbox"><span>Okay</span></button>
+                    </div>
+                </div>
+
+            <p class="dcp-code">
+                    &lt;div class="alertbox"><br>
+                    &emsp;&lt;div class="alertbox-header"><br>
+                    &emsp;&emsp;This is an alert<br>
+                    &emsp;&lt;/div><br>
+                    &emsp;&lt;div class="alertbox-body"><br>
+                    &emsp;&emsp;This is the alert body with a SUPER BAD LOOKING ERROR CODE. Please fix this error before pursuing to the webpage.<br>
+                    &emsp;&emsp;&lt;button class="btn btn-alertbox">&lt;span>Okay&lt;/span>&lt;/button><br>
+                    &emsp;&lt;/div><br>
+                    &lt;/div><br>
+            </p>
+
+            <h1 id="buttons" class="dch1">Buttons</h1>
+            <p class="dcp">Win 98 CSS includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.</p>
+            <div class="buttons">
+                    <button class="btn btn-primary"><span>Primary</span></button>
+                    <button class="btn btn-secondary"><span>Secondary</span></button>
+                    <button class="btn btn-danger"><span>Danger</span></button>
+                    <button class="btn btn-success"><span>Success</span></button>
+                    <button class="btn btn-warning"><span>Warning</span></button>
+                    <button class="btn btn-info"><span>Info</span></button>
+                    <button class="btn btn-outline"><span>Outline Button</span></button>
+            </div>
+
+            <p class="dcp-code">
+
+                    &lt;button class="btn btn-primary">&lt;span>Primary</span>&lt;/button><br>
+                    &lt;button class="btn btn-secondary">&lt;span>Secondary</span>&lt;/button><br>
+                    &lt;button class="btn btn-danger">&lt;span>Danger</span>&lt;/button><br>
+                    &lt;button class="btn btn-success">&lt;span>Success</span>&lt;/button><br>
+                    &lt;button class="btn btn-warning">&lt;span>Warning</span>&lt;/button><br>
+                    &lt;button class="btn btn-info">&lt;span>Info</span>&lt;/button><br>
+                    &lt;button class="btn btn-outline">&lt;span>Outline Button</span>&lt;/button><br>
+
+            </p>
+
+            <h1 id="#card" class="dch1">Card</h1>
+            <p class="dcp">A card is a flexible and extensible content container. It includes options for headings and titles, a wide variety of content, contextual background colors, and powerful display options.</p>
+            <div class="card">
+                    <img src="https://boygeniusreport.files.wordpress.com/2017/02/windows98.jpg?quality=98&strip=all&w=782" class="card-image" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio delectus magnam. Neque odit voluptas tempore beatae iste assumenda ipsum odio! Quisquam dolorem laudantium deserunt sapiente quam nostrum, perspiciatis dignissimos!</p>
+                        <button class="btn btn-primary"><span>Go Somewhere</span></button>
+                    </div>
+                </div>
+
+            <p class="dcp-code">
+
+                    &lt;div class="card"><br>
+                            &emsp;&emsp;&lt;img src="..." class="card-image" alt="..."><br>
+                            &emsp;&emsp;&lt;div class="card-body"><br>
+                            &emsp;&emsp;&emsp;&emsp;&lt;h5 class="card-title">Card Title&lt;/h5><br>
+                            &emsp;&emsp;&emsp;&emsp;&lt;p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio delectus magnam. Neque odit voluptas tempore beatae iste assumenda ipsum odio! Quisquam dolorem laudantium deserunt sapiente quam nostrum, perspiciatis dignissimos!&lt;/p><br>
+                            &emsp;&emsp;&emsp;&emsp;&lt;button class="btn btn-primary">&lt;span>Go Somewhere&lt;/span>&lt;/button><br>
+                            &emsp;&emsp;&lt;/div><br>
+                        &lt;/div><br>
+
+            </p>
+
+            <p class="dcp">Card body can also be added alone.</p>
+
+            <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+
+            <p class="dcp-code">
+
+                    &lt;div class="card"><br>
+                            &emsp;&emsp;&lt;div class="card-body"><br>
+                            &emsp;&emsp;&emsp;&emsp;This is some text within a card body.<br>
+                            &emsp;&emsp;&lt;/div><br>
+                          &lt;/div><br>
+
+            </p>
+
+            <p class="dcp">Card can also contain subtitles, links and no images.</p>
+
+            <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+
+            <p class="dcp-code">
+
+                    &lt;div class="card"><br>
+                    &emsp;&emsp;&lt;div class="card-body"><br>
+                    &emsp;&emsp;&emsp;&emsp;&lt;h5 class="card-title">Card title&lt;/h5><br>
+                    &emsp;&emsp;&emsp;&emsp;&lt;h6 class="card-subtitle">Card subtitle&lt;/h6><br>
+                    &emsp;&emsp;&emsp;&emsp;&lt;p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p><br>
+                    &emsp;&emsp;&emsp;&emsp;&lt;a href="#" class="card-link">Card link&lt;/a><br>
+                    &emsp;&emsp;&emsp;&emsp;&lt;a href="#" class="card-link">Another link&lt;/a><br>
+                    &emsp;&emsp;&lt;/div><br>
+                    &lt;/div><br>
+
+            </p>
+
+            <h1 id="forms" class="dch1">Forms</h1>
+            <p class="dcp">Forms are used to get data on your site.</p>
+
+     <input type="email" class="form-control" placeholder="name@example.com">
+    <input type="password" class="form-control" placeholder="Password">
+
+    <div class="form-select">
+        <select>
+                <option>Select A Number:</option>
+                <option>One</option>
+                <option>Two</option>
+                <option>Three</option>
+                <option>Four</option>
+        </select>
+    </div>
+
+    <textarea class="form-control" rows="3"></textarea>
+
+    <p class="dcp-code">
+
+            &lt;input type="email" class="form-control" placeholder="name@example.com"><br>
+            &lt;input type="password" class="form-control" placeholder="Password"><br>
+        
+            &lt;div class="form-select"><br>
+            &emsp;&emsp;&lt;select><br>
+            &emsp;&emsp;&emsp;&emsp;&lt;option>Select A Number:&lt;/option><br>
+            &emsp;&emsp;&emsp;&emsp;&lt;option>One&lt;/option><br>
+            &emsp;&emsp;&emsp;&emsp;&lt;option>Two&lt;/option><br>
+            &emsp;&emsp;&emsp;&emsp;&lt;option>Three&lt;/option><br>
+            &emsp;&emsp;&emsp;&emsp;&lt;option>Four&lt;/option><br>
+            &emsp;&emsp;&lt;/select><br>
+            &lt;/div><br>
+        
+            &lt;textarea class="form-control" rows="3">&lt;/textarea><br>
+
+    </p>
+
+            <h1 id="lg" class="dch1">List Groups</h1>
+            <!-- <p class="dcp"></p> -->
+            <div class="card">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <ul class="list-group">
+                      <li class="list-group-item">Cras justo odio</li>
+                      <li class="list-group-item">Dapibus ac facilisis in</li>
+                      <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                  </div>
+                  <p class="dcp-code">
+
+                        &lt;div class="card"><br>
+                        &emsp;&emsp;&lt;div class="card-header"><br>
+                        &emsp;&emsp;&emsp;&emsp;Featured<br>
+                        &emsp;&emsp;&lt;/div><br>
+                        &emsp;&emsp;&lt;ul class="list-group"><br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;li class="list-group-item">Cras justo odio&lt;/li><br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;li class="list-group-item">Dapibus ac facilisis in&lt;/li><br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;li class="list-group-item">Vestibulum at eros&lt;/li><br>
+                        &emsp;&emsp;&lt;/ul><br>
+                        &lt;/div><br>
+                  </p>
+            <h1 id="quotes" class="dch1">Quotes</h1>
+            <!-- <p class="dcp"></p> -->
+            <div class="card">
+                    <div class="card-header">
+                      Quote
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">&mdash; Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <p class="dcp-code">
+
+                        &lt;div class="card"><br>
+                        &emsp;&emsp;&lt;div class="card-header"><br>
+                        &emsp;&emsp;&emsp;&emsp;Quote<br>
+                        &emsp;&emsp;&lt;/div><br>
+                        &emsp;&emsp;&lt;div class="card-body"><br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;blockquote class="blockquote "><br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p><br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;footer class="blockquote-footer">&mdash; Someone famous in &lt;cite title="Source Title">Source Title&lt;/cite>&lt;footer><br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;/blockquote><br>
+                        &emsp;&emsp;&lt;/div><br>
+                        &lt;/div><br>
+
+                  </p>
+        </div>
+    </div>
+    <script src="../dist/js/win98.min.js"></script>
+</body>
+</html>

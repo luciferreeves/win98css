@@ -1,0 +1,83 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.wbh1 {
+    text-align: center;
+    font-size: 5em;
+    font-weight: 100;
+    background: -webkit-linear-gradient(#000066, #cc0099);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Lato'
+}
+.wbp {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: 'Lato';
+}
+.wba {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: 'Lato';
+    color: #2c2cad;
+}
+.wimg {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 150px;
+}
+.padded {
+    padding: 20px;
+}
+.documentation {
+    width: 75%;
+    margin: 0 auto;
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 25% auto;
+    height: 50vh;
+}
+.doc-sidebar {
+    border-right: solid 1px black;
+}
+.doc-sidebar ol li a {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    overflow: scroll;
+}
+.doc-sidebar ol {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+.doc-content {
+    padding-left: 20px;
+    overflow: scroll;
+}
+.dch1 {
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 300;
+}
+.dcp {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 300;
+}
+.dcp-code {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: rgb(216, 216, 216);
+    padding: 10px 20px;
+    width: calc(100% - 60px);
+}
