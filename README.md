@@ -7,9 +7,9 @@ Website and Documentation at: http://luciferreeves.github.io/win98css/
 
 ## Roadmap/Things to do
 
-- [x] Basic Framework
-- [x] Website
-- [x] Documentation
+- [x] <del>Basic Framework</del>
+- [x] <del>Website</del>
+- [x] <del>Documentation</del>
 - [ ] Responsive Website
 - [ ] Better Documentation
 - [ ] Responsive Framework Design
